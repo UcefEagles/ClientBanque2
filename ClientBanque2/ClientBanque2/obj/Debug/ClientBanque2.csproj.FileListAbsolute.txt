@@ -1,0 +1,11 @@
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\bin\Debug\ClientBanque2.exe.config
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\bin\Debug\ClientBanque2.exe
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\bin\Debug\ClientBanque2.pdb
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.csproj.AssemblyReference.cache
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.csproj.SuggestedBindingRedirects.cache
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.Form1.resources
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.Properties.Resources.resources
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.csproj.GenerateResource.cache
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.csproj.CoreCompileInputs.cache
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.exe
+C:\Users\EagleEye\source\repos\ClientBanque2\ClientBanque2\obj\Debug\ClientBanque2.pdb

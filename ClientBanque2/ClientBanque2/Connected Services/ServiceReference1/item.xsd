@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://service/" targetNamespace="http://service/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ConversionEuroToDh" type="tns:ConversionEuroToDh" />
+  <xs:element name="ConversionEuroToDhResponse" type="tns:ConversionEuroToDhResponse" />
+  <xs:element name="compte" type="tns:compte" />
+  <xs:element name="getComptes" type="tns:getComptes" />
+  <xs:element name="getComptesResponse" type="tns:getComptesResponse" />
+  <xs:element name="getcompte" type="tns:getcompte" />
+  <xs:element name="getcompteResponse" type="tns:getcompteResponse" />
+  <xs:complexType name="getcompte">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getcompteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:compte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="compte">
+    <xs:sequence>
+      <xs:element name="code" type="xs:long" />
+      <xs:element minOccurs="0" name="datecreation" type="xs:dateTime" />
+      <xs:element name="solde" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ConversionEuroToDh">
+    <xs:sequence>
+      <xs:element name="monatant" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ConversionEuroToDhResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getComptes">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getComptesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:compte" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
